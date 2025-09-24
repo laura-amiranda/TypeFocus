@@ -1,4 +1,6 @@
 # TypeFocus
+![image](https://github.com/user-attachments/assets/aa96f5fe-3276-4e8c-9248-b69c44e0424e)
+
 ## Projeto Typefocus - PISI1
 
 Jogo de reflexo para auxiliar pessoas com TDAH
