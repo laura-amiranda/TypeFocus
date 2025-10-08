@@ -1,6 +1,6 @@
 def menu():
     while True:
-        print("\n=== DIGITE FOCO ===")
+        print("\n=== TypeFocus ===")
         print("1 - Jogar")
         print("2 - Sair")
         opcao = input("Escolha uma opção: ")
