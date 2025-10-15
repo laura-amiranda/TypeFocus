@@ -241,6 +241,9 @@ def jogar(nome):
                     _ = input("\nPressione ENTER para continuar:")
                     limpar_tela()
                     exibir_mascote_pronto()
+            else:
+                limpar_tela()
+                exibir_mascote_pronto()
 
     limpar_tela()
     exibir_mascote_despedida(nome)
