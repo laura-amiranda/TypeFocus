@@ -37,7 +37,6 @@ PALAVRAS_POR_NIVEL = {
     ],
 }
 
-# Lista padrão com progressão gradativa
 LISTA_PALAVRAS_PADRAO = (
     PALAVRAS_POR_NIVEL["facil"][:3] +
     PALAVRAS_POR_NIVEL["medio"][:5] +
