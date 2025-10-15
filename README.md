@@ -63,7 +63,7 @@ Para além disso, a inclusão de grupos minoritários nos canais digitais é um 
 - RF012 – Ranking comparativo
 - RF013 – Estatísticas + mensagens motivacionais
 - RF014 – Feedback em tempo real (sem ENTER)
-- RF0115 - Histórico dos jogadores
+- RF015 - Histórico dos jogadores
 
 ## Linguagem
 
