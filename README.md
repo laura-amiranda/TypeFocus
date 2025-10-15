@@ -18,30 +18,23 @@ Para além disso, a inclusão de grupos minoritários nos canais digitais é um 
 
 ## Como jogar?
 
-### Primeira Versão
-1. O sistema escolhe uma palavra aleatória de uma lista.
-2. A palavra é exibida na tela e inicia uma contagem regressiva de 3, 2, 1.
-3. Após a contagem, o campo de digitação é liberado e o cronômetro começa.
-4. O jogador digita a palavra e confirma com ENTER -> só é aceito se a palavra estiver correta.
-5. O jogo exibe o tempo final e a pontuação baseada no desempenho.
-6. O jogador pode escolher entre jogar novamente ou sair.
-
-### Segunda Versão
-1. O jogador insere seu nome e escolhe o modo (padrão, fácil, médio ou difícil).
-2. O sistema sorteia uma palavra de acordo com o modo escolhido.
-3. A palavra é exibida na tela e inicia uma contagem regressiva de 3, 2, 1.
-4. Após a contagem, o campo de digitação é liberado e o cronômetro começa.
-5. O jogador digita -> o jogo verifica em tempo real se a palavra está correta (sem ENTER).
-6. Ao acertar a palavra, o cronômetro para automaticamente.
-7. O sistema calcula e exibe:
-- Tempo da partida;
-- Pontuação (com bônus de streaks em acertos consecutivos);
-- Melhor tempo do jogador;
-- Média de desempenho;
-- Total de partidas jogadas;
-- Ranking comparativo com resultados anteriores.
-7. São exibidas mensagens motivacionais para incentivar o jogador.
-8. O jogador pode escolher entre jogar novamente ou encerrar.
+1. Abra o terminal e execute o arquivo principal com:
+2. Digite seu nome, sobrenome, idade e se tem TDAH ou não.
+3. Quando o TypeBot aparecer, escolha o nível de dificuldade:
+- Fácil: palavras curtas, ótimo para começar.
+- Médio: palavras médias, ritmo equilibrado.
+- Difícil: palavras longas, exige mais foco.
+- Padrão: a dificuldade aumenta gradualmente conforme o jogador acerta.
+4. O jogo mostra uma palavra e inicia uma contagem regressiva de 3, 2, 1 antes de liberar a digitação.
+5. Digite a palavra exatamente igual.
+- Se errar, o jogo pede para tentar novamente.
+- Se o tempo ultrapassar 60 segundos, a rodada é encerrada automaticamente.
+6. Quando acerta, o jogo mostra o tempo e a pontuação com base no seu desempenho.
+7. No final, você pode escolher entre:
+- Jogar novamente;
+- Trocar de dificuldade;
+- Encerrar o jogo.
+8. O mascote TypeBot se despede com uma mensagem personalizada, encerrando a sessão.
 
 ## Releases
 
