@@ -6,7 +6,9 @@ ARQUIVO_JOGADORES = "jogadores.json"
 def carregar_jogadores():
     if os.path.exists(ARQUIVO_JOGADORES):
         with open(ARQUIVO_JOGADORES, "r") as f:
-            return json.load(f)
+            conteudo = f.read().strip()
+            if conteudo:
+                return json.loads(conteudo)
     return {}
 
 def salvar_jogadores(jogadores):
