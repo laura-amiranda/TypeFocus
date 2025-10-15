@@ -53,21 +53,17 @@ Para além disso, a inclusão de grupos minoritários nos canais digitais é um 
 - RF005 – Exibir tempo + pontuação
 - RF006 – Opção de jogar novamente ou sair
 - RF007 – Cadastrar nome do jogador
+- RF008 – Escolha de nível de dificuldade
+- RF009 – Mascote
+
 
 ### Requisitos para Segunda
-- RF008 – Escolha de nível de dificuldade
-- RF009 – Sistema de streaks (combos)
-- RF010 – Ranking comparativo
-- RF011 – Estatísticas + mensagens motivacionais
-- RF012 – Feedback em tempo real (sem ENTER)
-- RF013 - Histórico dos jogadores
-
-### Destaques
-- CRUD completo com validações (nome, idade e TDAH).
-- Controle de tempo com limite de 60 segundos.
-- Pontuação baseada na rapidez e precisão.
-- Evita repetição de palavras durante as rodadas.
-- Tratamento completo de fluxos de erro e campos vazios.
+- RF010 – Escolha o idioma
+- RF011 – Sistema de streaks (combos)
+- RF012 – Ranking comparativo
+- RF013 – Estatísticas + mensagens motivacionais
+- RF014 – Feedback em tempo real (sem ENTER)
+- RF0115 - Histórico dos jogadores
 
 ## Linguagem
 
