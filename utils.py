@@ -4,7 +4,7 @@ from colorama import Fore
 def contagem_regressiva():
     print("\nPreparando em...")
     for i in range(3, 0, -1):
-        print(f"{Fore.RED}{i}{Fore.RESET}")
+        print(f"{Fore.MAGENTA}{i}{Fore.RESET}")
         time.sleep(1)
 
 def calcular_pontos(tempo, sem_erros=True):
