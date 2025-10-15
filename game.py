@@ -220,13 +220,27 @@ def jogar(nome):
             if trocar == "s":
                 limpar_tela()
                 exibir_mascote_inicial()
-                nivel, palavras_disponiveis = escolher_dificuldade()
-                palavras_usadas = set()
-                print(
-                    f"\n{Fore.MAGENTA}Dificuldade alterada "
-                    f"para {nivel.upper()}!"
-                )
-                time.sleep(1.5)
+                nivel, novas_palavras = escolher_dificuldade()
+                novas_filtradas = [
+                    p for p in novas_palavras
+                    if p not in palavras_usadas
+                ]
+                if not novas_filtradas:
+                    print(
+                        f"\n{Fore.YELLOW}Nenhuma nova palavra disponível "
+                        f"nesse nível. Escolha outro nível ou "
+                        f"continue no atual."
+                    )
+                    time.sleep(1.8)
+                else:
+                    palavras_disponiveis = novas_filtradas
+                    print(
+                        f"\n{Fore.MAGENTA}Dificuldade alterada "
+                        f"para {nivel.upper()}!"
+                    )
+                    _ = input("\nPressione ENTER para continuar:")
+                    limpar_tela()
+                    exibir_mascote_pronto()
 
     limpar_tela()
     exibir_mascote_despedida(nome)
