@@ -1,48 +1,23 @@
+
+LISTA_PALAVRAS_PADRAO = [
+    "python", "terminal", "digitar", "foco", "atencao",
+    "concorrencia", "algoritmo", "variavel", "funcao", "projeto"
+]
+
 PALAVRAS_POR_NIVEL = {
-    "facil": [
-        "foco",
-        "jogo",
-        "tecla",
-        "mão",
-        "dedo",
-        "letra",
-        "linha",
-        "texto",
-        "ler",
-        "ver",
-    ],
-    "medio": [
-        "python",
-        "terminal",
-        "digitar",
-        "teclado",
-        "programa",
-        "reflexo",
-        "código",
-        "desafio",
-        "diversão",
-        "prática",
-    ],
-    "dificil": [
-        "velocidade",
-        "atenção",
-        "habilidade",
-        "concentração",
-        "memória",
-        "aprendizado",
-        "desempenho",
-        "competição",
-        "extraordinário",
-        "desenvolvimento",
-    ],
+    "facil": ["gato", "sol", "lua", "rio", "mar"],
+    "medio": ["cavalo", "teclado", "janela", "estudo", "codigo"],
+    "dificil": ["velocidade", "programacao", "concentracao", "motivacao", "organizacao"]
 }
 
-LISTA_PALAVRAS_PADRAO = (
-    PALAVRAS_POR_NIVEL["facil"][:3] +
-    PALAVRAS_POR_NIVEL["medio"][:5] +
-    PALAVRAS_POR_NIVEL["facil"][3:5] +
-    PALAVRAS_POR_NIVEL["medio"][5:] +
-    PALAVRAS_POR_NIVEL["dificil"][:4] +
-    PALAVRAS_POR_NIVEL["medio"][5:] +
-    PALAVRAS_POR_NIVEL["dificil"][4:]
-)
+PALAVRAS_INGLES = {
+    "facil": ["cat", "sun", "sky", "dog", "book"],
+    "medio": ["keyboard", "window", "computer", "learning", "python"],
+    "dificil": ["concentration", "motivation", "organization", "development", "performance"]
+}
+
+PALABRAS_ESPANOL = {
+    "facil": ["gato", "sol", "mar", "casa", "libro"],
+    "medio": ["teclado", "ventana", "estudio", "codigo", "amigo"],
+    "dificil": ["concentracion", "motivacion", "organizacion", "desarrollo", "rendimiento"]
+}
