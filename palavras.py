@@ -1,7 +1,8 @@
 
 LISTA_PALAVRAS_PADRAO = [
     "python", "terminal", "digitar", "foco", "atencao",
-    "concorrencia", "algoritmo", "variavel", "funcao", "projeto"
+    "concorrencia", "algoritmo", "variavel", "funcao", "projeto", "desempenho",
+    "melhoria", "habilidade", "concentracao", "motivacao"
 ]
 
 PALAVRAS_POR_NIVEL = {

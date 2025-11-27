@@ -98,7 +98,7 @@ def input_real_time(palavra, tempo_limite=60):
             raise KeyboardInterrupt
 
         typed += ch
-        if palavra.startswith(typed):
+        if palavra.lower().startswith(typed.lower()):
             indicador = "" 
         else:
             indicador = "  <-- erro aqui"
@@ -108,10 +108,10 @@ def input_real_time(palavra, tempo_limite=60):
         sys.stdout.write("Digite a palavra (sem ENTER): " + typed + indicador)
         sys.stdout.flush()
 
-        if typed == palavra:
+
+        if typed.lower() == palavra.lower():
             tempo_total = round(time.time() - start, 2)
             print()  
             return typed, tempo_total, sem_erros, False
-
         if len(typed) > len(palavra):
             sem_erros = False

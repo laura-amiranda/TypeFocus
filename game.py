@@ -63,7 +63,7 @@ def exibir_mascote_pronto(idioma='pt'):
         prompt = "Presiona ENTER para comenzar:"
     else:
         prompt = "Pressione ENTER para começar:"
-    # título localizado do balão
+
     if idioma == 'en':
         titulo = 'Ready?'
     elif idioma == 'es':
@@ -390,7 +390,7 @@ def jogar(nome):
             wants_change_lang = (resp_lang == 'y') if idioma == 'en' else (resp_lang == 's')
             if wants_change_lang:
                 limpar_tela()
-                # menu curto de seleção de idioma localizado
+
                 menu = {
                     'pt': {'title': '\nP) Português  I) Inglês  E) Espanhol', 'prompt': 'Digite P, I ou E: '},
                     'en': {'title': '\nP) Português  I) English  E) Español', 'prompt': 'Type P, I or E: '},
@@ -415,7 +415,7 @@ def jogar(nome):
                         print('Opção inválida. Digite P, I ou E.')
                 idioma = novo_idioma
                 exibir_mascote_inicial(idioma)
-                # reconstruir lista de palavras conforme idioma e nível atual
+
                 if idioma == 'en':
                     if nivel == 'padrao':
                         palavras_disponiveis = []

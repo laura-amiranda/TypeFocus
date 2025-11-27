@@ -29,7 +29,7 @@ def cadastrar_jogador():
     jogadores = carregar_jogadores()
 
     while True:
-        nome = input("\nDigite seu nome completo: ").strip().title()
+        nome = input("\nDigite seu nome: ").strip().title()
         if not nome:
             print("O nome não pode ficar vazio.")
             continue
