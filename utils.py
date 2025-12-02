@@ -84,7 +84,7 @@ def input_real_time(palavra, tempo_limite=60):
         if palavra.lower().startswith(typed.lower()):
             indicador = "" 
         else:
-            indicador = "  <-- erro aqui"
+            indicador = "  <-- tem um erro aqui"
             sem_erros = False
 
         sys.stdout.write('\r' + " " * (len("Digite a palavra (sem ENTER): ") + len(palavra) + 20) + '\r')
