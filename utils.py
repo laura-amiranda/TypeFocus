@@ -11,18 +11,7 @@ def contagem_regressiva():
         time.sleep(1)
 
 def calcular_pontos(tempo, sem_erros=True, streak=0, bateu_recorde=False):
-    """
-    Calcula pontos conforme esquema:
-    - <2s => 100
-    - 2-4 => 70
-    - 4-6 => 50
-    - 6-8 => 30
-    - >8 => 10
-    Bônus:
-    - sem_erros: +20
-    - streak: +10 por combo (por rodada)
-    - bateu_recorde: +30
-    """
+
     if tempo < 2:
         pontos = 100
     elif tempo < 4:
@@ -45,10 +34,7 @@ def calcular_pontos(tempo, sem_erros=True, streak=0, bateu_recorde=False):
     return pontos
 
 def getch():
-    """
-    Lê um único caractere do terminal sem precisar pressionar ENTER.
-    Funciona em Windows (msvcrt) e em Unix (tty/termios).
-    """
+
     try:
         import msvcrt
         ch = msvcrt.getwch()
@@ -65,10 +51,7 @@ def getch():
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
 
 def input_real_time(palavra, tempo_limite=60):
-    """
-    Lê a digitação sem ENTER, mostra progresso, verifica erro em tempo real.
-    Retorna (tentativa, tempo_total, sem_erros, tempo_estourado)
-    """
+
     start = time.time()
     typed = ""
     sem_erros = True
