@@ -81,6 +81,7 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 - RF013 – Estatísticas + mensagens motivacionais  
 - RF014 – Feedback em tempo real (sem ENTER)  
 - RF015 – Histórico dos jogadores (arquivo `historico.json`)  
+- RF016 – Interface gráfica
 
 ---
 
@@ -121,3 +122,13 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 - Recomendado usar **terminal padrão** no Windows, Linux ou macOS.  
 - Para idiomas, a bandeira do mascote muda automaticamente.  
 - Feedback opcional do jogador é salvo no histórico para futuras análises e estatísticas.  
+
+## Interface Gráfica (GUI)
+
+Tem também uma versão com interface simples feita em `pygame` — o arquivo é `gui.py`.
+
+- Para experimentar rápido: instale o `pygame` e execute `python gui.py`.
+- Assets (opcionais): coloque imagens em `assets/` para personalizar (`menu_bg.*`, `bg.*`, `result_bg.*`).
+- Sons (opcionais): `assets/countdown.wav`, `assets/countdown_final.wav`, `assets/countdown_continuous.wav`.
+- Controles: pressione `Enter` para começar/voltar ao menu; digite a palavra (não precisa apertar Enter para confirmar).
+- Se faltar imagem ou som, a GUI usa um fundo simples e fica sem áudio — o jogo continua normalmente.
