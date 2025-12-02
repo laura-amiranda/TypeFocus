@@ -123,6 +123,8 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 - Para idiomas, a bandeira do mascote muda automaticamente.  
 - Feedback opcional do jogador é salvo no histórico para futuras análises e estatísticas.  
 
+---
+
 ## Interface Gráfica (GUI)
 
 Tem também uma versão com interface simples feita em `pygame` — o arquivo é `gui.py`.
