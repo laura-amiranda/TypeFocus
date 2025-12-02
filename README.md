@@ -1,5 +1,5 @@
 # TypeFocus
-![image](https://github.com/user-attachments/assets/aa96f5fe-3276-4e8c-9248-b69c44e0424e)
+![TypeFocus](assets/readme_img.jpg)
 
 ## Projeto TypeFocus - PISI1
 **Jogo de reflexo e digitação para auxiliar pessoas com TDAH**
