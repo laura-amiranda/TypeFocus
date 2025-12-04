@@ -47,20 +47,6 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 
 ---
 
-## Novos recursos da segunda avaliação
-
-- **Sistema de streaks (combos)**  
-- **Ranking comparativo**: melhores pontuações da sessão e histórico geral.  
-- **Estatísticas + mensagens motivacionais** por rodada.  
-- **Feedback em tempo real**: digitação sem precisar pressionar ENTER.  
-- **Histórico dos jogadores**: armazenando:
-  - Perfil (nome, idade, TDAH)  
-  - Partidas jogadas  
-  - Pontuação, tempo e streak  
-  - Feedback opcional do jogador  
-
----
-
 ## Releases
 
 ### Primeira versão
@@ -94,7 +80,8 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 - **random** → sorteio aleatório das palavras.  
 - **json** → salvar e carregar dados dos jogadores e histórico.  
 - **os** → verificação da existência de arquivos (`jogadores.json`, `historico.json`).  
-- **colorama** → cores no terminal para melhor visualização.  
+- **colorama** → cores no terminal para melhor visualização.
+- **pygame** → interface gráfica 
 
 ### Estruturas utilizadas
 - **Estruturas de decisão:** `if`, `elif`, `else` – validações de dados e fluxo de jogo.  
@@ -108,12 +95,13 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 ## Arquivos importantes
 
 - `main.py` → entrada principal e menu do jogo  
-- `jogo/game.py` → lógica principal do jogo e regras  
-- `palavras/palavras.py` → listas de palavras por nível e idioma  
-- `utils/utils.py` → funções auxiliares (calcular pontos, input em tempo real)  
-- `jogadores/crud.py` → cadastro, edição e exclusão de jogadores  
+- `game.py` → lógica principal do jogo e regras  
+- `palavras.py` → listas de palavras por nível e idioma  
+- `utils.py` → funções auxiliares (calcular pontos, input em tempo real)  
+- `crud.py` → cadastro, edição e exclusão de jogadores  
 - `ranking.json` → ranking da sessão  
-- `historico.json` → histórico completo de jogadores  
+- `historico.json` → histórico completo de jogadores
+- `gui.py` → interface gráfica
 
 ---
 
