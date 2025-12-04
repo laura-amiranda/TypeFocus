@@ -127,6 +127,8 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 
 ## Interface Gráfica (GUI)
 
+![Menu da interface gráfica do TypeFocus](assets/menu_bg.jpg)
+
 Tem também uma versão com interface simples feita em `pygame` — o arquivo é `gui.py`.
 
 - Para experimentar rápido: instale o `pygame` e execute `python gui.py`.
