@@ -116,11 +116,23 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 ## Interface Gráfica (GUI)
 
 ![Menu da interface gráfica do TypeFocus](assets/menu_bg.jpg)
+Temos uma interface gráfica completa feita em `pygame` — o arquivo principal da GUI é `gui.py`.
 
-Tem também uma versão com interface simples feita em `pygame` — o arquivo é `gui.py`.
+- Como executar: instale o `pygame` (ex.: `pip install pygame`) e rode `python gui.py`.
+- O jogo também pode ser iniciado pelo `main.py`, que abre a GUI quando disponível.
+- Assets: coloque imagens em `assets/` para personalizar a aparência:
+   - `menu_bg.*` — fundo do menu
+   - `bg.*` — fundo principal do jogo
+   - `result_bg.*` — fundo da tela de resultado (opcional)
+   - `cadastro-idioma_bg.*` — fundo das telas de cadastro/idioma
+   - `typebot_frame1.png`, `typebot_frame2.png`, `typebot_frame3.png` — frames do mascote TypeBot
+- Sons: atualmente o jogo usa apenas os sons da contagem regressiva. Coloque em `assets/` se quiser áudio:
+   - `assets/countdown.wav`
+   - `assets/countdown_final.wav`
+   - `assets/countdown_continuous.wav`
+- Controles principais:
+   - Escolha uma opção para iniciar a rodada ou voltar ao menu.
+   - A entrada de texto é em tempo real: digite a palavra e não é preciso pressionar `Enter` para confirmar.
+- Se faltar imagem ou som, a GUI utiliza elementos visuais/sons padrão e o jogo continua normalmente.
 
-- Para experimentar rápido: instale o `pygame` e execute `python gui.py`.
-- Assets (opcionais): coloque imagens em `assets/` para personalizar (`menu_bg.*`, `bg.*`, `result_bg,*`, `cadastro-idioma_bg*`).
-- Sons (opcionais): `assets/countdown.wav`, `assets/countdown_final.wav`, `assets/countdown_continuous.wav`.
-- Controles: pressione `Enter` para começar/voltar ao menu; digite a palavra (não precisa apertar Enter para confirmar).
-- Se faltar imagem ou som, a GUI usa um fundo simples e fica sem áudio — o jogo continua normalmente.
+Observação: a GUI já inclui o mascote TypeBot (animação de 3 frames), suporte a múltiplos idiomas (pt/en/es), salvamento de histórico em `historico.json` e opções de dificuldade.
