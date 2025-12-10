@@ -120,7 +120,7 @@ Além disso, o projeto valoriza inclusão e acessibilidade em ambientes digitais
 Tem também uma versão com interface simples feita em `pygame` — o arquivo é `gui.py`.
 
 - Para experimentar rápido: instale o `pygame` e execute `python gui.py`.
-- Assets (opcionais): coloque imagens em `assets/` para personalizar (`menu_bg.*`, `bg.*`, `result_bg.*`).
+- Assets (opcionais): coloque imagens em `assets/` para personalizar (`menu_bg.*`, `bg.*`, `result_bg,*`, `cadastro-idioma_bg*`).
 - Sons (opcionais): `assets/countdown.wav`, `assets/countdown_final.wav`, `assets/countdown_continuous.wav`.
 - Controles: pressione `Enter` para começar/voltar ao menu; digite a palavra (não precisa apertar Enter para confirmar).
 - Se faltar imagem ou som, a GUI usa um fundo simples e fica sem áudio — o jogo continua normalmente.
